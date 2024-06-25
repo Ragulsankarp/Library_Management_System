@@ -4,7 +4,7 @@ This project is a simple implementation of a Library Management System using C++
 Below is an overview of its key features and components:
 
 :accessibility::**Features:**                                 
-**Add Book:** Allows users to add a new book to the library system. It prompts for ISBN, title, author, edition, and publication information.
+**Add Book:** Allows users to add a new book to the library system. It prompts for ISBN, title, author, edition, and publication information.     
 **Delete Book:** Enables deletion of a book from the library based on ISBN. It shifts remaining books in the array to fill the gap.                        
 **Edit Book:** Provides functionality to edit book details based on ISBN. Users can update any of the book's attributes.               
 **Search Book:** Allows searching for a book by ISBN. If found, it displays all details of the book.                 
