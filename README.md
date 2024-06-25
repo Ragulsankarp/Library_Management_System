@@ -11,16 +11,17 @@ Below is an overview of its key features and components:
 5.View All Books: Lists all books currently stored in the library, displaying their ISBN, title, author, edition, and publication details.                 
 6.Quit: Terminates the program.             
 
-Components:
-Book Class: Defines a Book class with private attributes (isbn, title, author, edition, publication) and public methods (setIsbn, getTitle, etc.) for setting and getting book details.
-Main Function: Handles the main menu and user input, directing control to appropriate functions based on user choices.
-Functions: Separate functions (addBook, deleteBook, etc.) handle specific functionalities such as adding, deleting, editing, searching, and viewing books.
-Counter Management: Uses a counter variable to manage the number of books stored in an array (books). Functions for incrementing and decrementing this counter ensure proper book management.
-Additional Notes:
-Input Handling: Utilizes getline for robust input handling, allowing spaces in book titles and other details.
-Recursive main Call: While unconventional, the recursive call to main() after each operation ensures the program returns to the main menu, providing a continuous user interface.
+🧭:Components:    
+Book Class: Defines a Book class with private attributes (isbn, title, author, edition, publication) and public methods (setIsbn, getTitle, etc.) for setting and getting book details.    
+Main Function: Handles the main menu and user input, directing control to appropriate functions based on user choices.     
+Functions: Separate functions (addBook, deleteBook, etc.) handle specific functionalities such as adding, deleting, editing, searching, and viewing books.    
+Counter Management: Uses a counter variable to manage the number of books stored in an array (books). Functions for incrementing and decrementing this counter ensure proper book management.    
 
-Usage:
-To run the program, compile the source code (library_management_system.cpp) using a C++ compiler and execute the resulting executable. Follow the prompts in the console to perform various library management operations.
+🗒️:Additional Notes:   
+Input Handling: Utilizes getline for robust input handling, allowing spaces in book titles and other details.    
+Recursive main Call: While unconventional, the recursive call to main() after each operation ensures the program returns to the main menu, providing a continuous user interface.    
 
-This project serves as a foundational example of using OOP principles in a practical application and can be extended or modified for more complex library management scenarios.
+Usage:  
+To run the program, compile the source code (library_management_system.cpp) using a C++ compiler and execute the resulting executable. Follow the prompts in the console to perform various library management operations.  
+
+This project serves as a foundational example of using OOP principles in a practical application and can be extended or modified for more complex library management scenarios.  
