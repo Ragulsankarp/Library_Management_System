@@ -5,11 +5,11 @@ Below is an overview of its key features and components:
 
 :accessibility::Features:                                 
 1.Add Book: Allows users to add a new book to the library system. It prompts for ISBN, title, author, edition, and publication information.
-2.Delete Book: Enables deletion of a book from the library based on ISBN. It shifts remaining books in the array to fill the gap
-3.Edit Book: Provides functionality to edit book details based on ISBN. Users can update any of the book's attributes.
-4.Search Book: Allows searching for a book by ISBN. If found, it displays all details of the book.
-5.View All Books: Lists all books currently stored in the library, displaying their ISBN, title, author, edition, and publication details.
-6.Quit: Terminates the program.
+2.Delete Book: Enables deletion of a book from the library based on ISBN. It shifts remaining books in the array to fill the gap.                        
+3.Edit Book: Provides functionality to edit book details based on ISBN. Users can update any of the book's attributes.               
+4.Search Book: Allows searching for a book by ISBN. If found, it displays all details of the book.                 
+5.View All Books: Lists all books currently stored in the library, displaying their ISBN, title, author, edition, and publication details.                 
+6.Quit: Terminates the program.             
 
 Components:
 Book Class: Defines a Book class with private attributes (isbn, title, author, edition, publication) and public methods (setIsbn, getTitle, etc.) for setting and getting book details.
